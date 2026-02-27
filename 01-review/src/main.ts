@@ -5,7 +5,10 @@ import './style.css';
 //import './bases/04-interface';
 //import './bases/05-arrays';
 //import './bases/06-functions';
-import './bases/07-practice';
+// import './bases/07-practice';
+// import './bases/08-obj-destructuring';
+// import './bases/09-arrays-destructuring';
+import './bases/practice-02';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
