@@ -8,7 +8,8 @@ import './style.css';
 // import './bases/07-practice';
 // import './bases/08-obj-destructuring';
 // import './bases/09-arrays-destructuring';
-import './bases/practice-02';
+// import './bases/practice-02';
+import './data/wow.data';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

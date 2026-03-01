@@ -1,12 +1,12 @@
 interface Class {
 	username: string;
-	skill: Skills;
+	skill: Skill;
 	armor: string;
 	weapon: string;
 	attacks: Damage;
 }
 
-interface Skills {
+interface Skill {
 	skillOne: string;
 	skillTwo: string;
 }
