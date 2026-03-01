@@ -9,9 +9,14 @@ import './style.css';
 // import './bases/07-obj-destructuring';
 // import './bases/08-arrays-destructuring';
 // import './bases/practice-02';
+// import './bases/09-import-export';
+// import './bases/practice-03';
+// import { getCharatersByOwner } from './bases/practice-03';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
   <h1>Hola mundo</h1>
   </div>
 `;
+
+// console.log(getCharatersByOwner('WoW Classic'));

@@ -1,5 +1,5 @@
 //Las interface son en singular
-interface Character {
+export interface Character {
 	id: number;
 	name: string;
 	owner: Owner;
@@ -13,7 +13,8 @@ type Owner = 'WoW Classic' | 'WoW TBC';
 // WoW TBC = 'WoW TBC', // 1 // 'WoW TBC'
 // }
 
-const heroes: Character[] = [
+//Exportacion independiente, exportan
+export const characters: Character[] = [
 	{
 		id: 1,
 		name: 'Warrior',
@@ -47,3 +48,8 @@ const heroes: Character[] = [
 
 //ENUM
 //Se puede usar eNum cuando se quiere iterar sobre los objetos
+
+//---
+
+// Te permite renombrar lo que exportas
+//export default characters;
